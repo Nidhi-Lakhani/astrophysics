@@ -1,0 +1,32 @@
+table{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+	font-style: Calibri;
+}
+th{
+	text-align: left;
+	font-size: 90%;
+	height: 25px;
+	background-color: #3b6f47;
+	color: #ffffff;
+	padding: 10px;
+	margin: 5%;
+}
+td{
+	text-align: center;
+	padding: 8px;
+	color: rgba(80,80,80,0.8);
+	border-bottom: 2px solid #ffffff;
+	background-color: #e4f5d4;
+	font-size: 90%;
+}
+td:first-child{
+	text-align: left;
+}
+tr:hover td {
+  background-color: rgba(2,2,2, 0.1);
+}
+.table-responsive{
+	width: 80%
+}

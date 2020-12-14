@@ -1,0 +1,205 @@
+body{
+	background-color: #fffff6;
+}
+
+main{
+	padding: 5%;
+}
+@media (min-width: 768px) {
+	main{padding-top: 2%}
+}
+
+.container{
+	padding-top: 30%;
+}
+@media (min-width: 768px) {
+  .container{
+    padding-top: 10px;
+	}
+}
+header{
+	background-image: url('../images/headerImg.jpg');
+	background-size: cover;
+	margin: 20px 20px 0px 20px;
+	height: 200px;
+}
+
+h1{
+	margin-top: 20px;
+	text-align: center;
+	padding-top: 30px;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
+
+.navbar {
+  min-height: 50px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.navbar-nav > li{
+  padding-left:60px;
+  padding-right:60px;
+}
+.img-thumbnail{
+	max-height: 20%;
+	max-width: 20%;
+	margin-right: 1%;
+}
+
+.image_section {
+    max-height: 90%;
+    max-width: 90%;
+}
+
+@media (max-width:640px){
+    .image_section {
+        max-height: 30px;
+    	max-width: 30px;
+    }
+}
+.footer{
+	padding: 1.5%;
+	margin-top: 1%;
+	font-size: large;
+	background-image: url(https://arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/XQRMY2UEXZE4VACIXD7SUC2GBU.jpg);
+	color: #fff;
+}
+.active{
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 15%;
+}
+
+.left{display: none;}
+.left img{display: none;}
+
+@media screen and (min-width: 768px){
+	.left{
+	display: inline-block;
+	width: 18%;
+	float: left;
+	margin-right: 18px;
+	margin-left: 15px;
+	height: 400px;
+	}
+
+	.left img{
+	height: 200px;
+	width: 250px;
+	display: block;
+	margin-right: 50px auto;
+	margin-bottom: 30px;
+	border: 2px solid black;
+	box-sizing: border-box;
+	}
+
+	.right{
+	display: inline-block;
+	padding: 5px;
+	width: 70%;
+	background-color: #fff;
+	float: left;
+	margin: 0px;
+	margin-right: 20px;
+	font-size: 1.2em;
+	box-sizing: border-box;
+	}
+}
+figcaption{
+	margin-bottom: 10px;
+	font-style: italic;
+	font-size: 120%;
+	color: #a30000;
+	background-color: rgba(0,0,0,0.05);
+}
+#mobview{
+	text-transform: uppercase;
+	background-color: #d8d8d8;
+}
+.carousel{
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.carousel-inner{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+
+#space{
+	display: inline-block;
+	margin-left: 40px;
+	margin-bottom: 5px;
+	margin-top: 30px;
+	font-weight: bold;
+	color: #dc3545;
+	}
+@media screen and (max-width:768px){
+	#space{display: none;}
+}
+#phases{
+	display: inline-block;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	color: #dc3545;
+}
+@media screen and (max-width:768px){
+	#phases{display: none;}
+}
+
+#calendar{
+	display: inline-block;
+	padding-left: 5%;
+	float: right;
+}
+.carousel-control-next {
+    right: 800px !important;
+}
+@media (min-width: 768px){
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 500px;
+    bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+}
+}
+.carousel-control-prev {
+    left: 20px !important;
+    
+}
+
+
+
+
+
+
+
